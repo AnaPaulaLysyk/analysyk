@@ -5,14 +5,15 @@
 body{
     background-color: rgb(230,230,230);
     font-family: 'Montserrat', sans-serif;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
+    margin: 15px 0;
 }
 
 .container-flex {
     display: flex;
-    width: 100%;
     height: 400px;
+    margin: 15px 30px
 }
 
 
@@ -22,24 +23,28 @@ body{
     align-items: center;
     margin: 20px;
     padding: 10px;
-    border-bottom-width: 3px;
+    border-bottom-width: 2px;
     border-bottom-color: orange;
     border-bottom-style: solid;
-    width: 100%;
     color: rgb(109, 32, 4);
 }
 
 #menu-lateral {
     display: inline-flex;
-    width: 25%;
-    padding: 4px;
+    width: 20%;
+    padding: 8px;    
     flex-direction: column;
 }
 
 #container-informacao {
     display: inline-flex;
-    flex-direction: column;
-    width: 75%;
+    flex-direction: column;  
+    border-radius: 4px;  
+    box-shadow: 1px 3px 3px #666666;
+    background-color: rgba(255,165,0,.03 );
+    padding-left: 30px;    
+    padding-right: 30px;    
+    width: 80%;
 } 
 
 .sobre-exper {
@@ -66,5 +71,16 @@ body{
 .container-img img {
     width: 100%;
     height: 100%;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    height: 50px;
+    background-color: grey;
+    border-top-width: 2px;
+    border-top-color: black;
+    border-top-style: solid;
+    margin-top: 10px;
 }
 
