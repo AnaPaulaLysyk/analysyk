@@ -1,9 +1,15 @@
+*{ box-sizing: border-box;
+
+}
+
 body{
     background-color: rgb(230,230,230);
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    width: 100vw;
 }
 
 .container-flex {
-    background-color: red;
     display: flex;
     width: 100%;
     height: 400px;
@@ -14,18 +20,18 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 2px;
+    margin: 20px;
     padding: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom-width: 3px;
+    border-bottom-color: orange;
+    border-bottom-style: solid;
     width: 100%;
     color: rgb(109, 32, 4);
 }
 
 #menu-lateral {
     display: inline-flex;
-    background-color: blue;
-    width: 20%;
-    /* flex-direction: column; */
+    width: 25%;
     padding: 4px;
     flex-direction: column;
 }
@@ -33,15 +39,13 @@ body{
 #container-informacao {
     display: inline-flex;
     flex-direction: column;
-    background-color: rgb(100, 207, 100);
-    width: 90%;
+    width: 75%;
 } 
 
 .sobre-exper {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 100%;
     color: rgb(109, 32, 4);
 }
