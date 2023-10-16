@@ -8,6 +8,7 @@ body{
     height: 100%;
     width: 100%;
     margin: 0;
+    overflow: hidden;
 }
 
 #conteudo-principal {
@@ -58,6 +59,7 @@ body{
     padding-left: 30px;    
     padding-right: 30px;    
     width: 80%;
+    overflow: auto;
 } 
 
 .sobre-exper {
@@ -152,6 +154,10 @@ footer{
         height: auto;
     }
 
+    body{
+        overflow: auto;
+    }
+
     #menu-lateral {
         display: inline-flex;
         width: 100%;
@@ -167,6 +173,16 @@ footer{
         padding: 20px;    
     }
 }
+
+@media screen and (max-height: 450px){
+#titulo{
+    height: 180px;
+}
+.container-flex{
+    height: 320px;
+}
+}
+
 
 @keyframes deslizar-lateral {
     from { 
